@@ -1,16 +1,13 @@
 
-# Compiladores &mdash; Trabalho Laborational
+# Work for the curricular unit of Compilers
 
-## Compilador para a Linguagem C0 
+## C0 compiler in Haskell 
 
-Prentende-se que implementem um compilador básico da *linguagem C0*,
-um dialeto da linguagem C para ensino desenvolvido em CMU.  O
-compilador deverá ler código fonte C0 e gerar linguagem *assembly*
+It was intended to implement a basic compiler for the *C0* language,
+a dialect of the C language for teaching developed in CMU.  The
+compiler should read C0 source code and generate *assembly* language
 MIPS.
 
-Consultar a [documentação](trabalho.pdf) para mais informação.
+See [documentation (PT)](trabalho.pdf) for more information.
 
----
-
-Pedro Vasconcelos, 2023.
 
