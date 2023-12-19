@@ -8,6 +8,5 @@ a dialect of the C language for teaching developed in CMU.  The
 compiler should read C0 source code and generate *assembly* language
 MIPS.
 
-See [documentation (PT)](trabalho.pdf) for more information.
 
 
