@@ -1,0 +1,14 @@
+/*
+ * Example1 -  Compute a sum of squares
+ * Pedro Vasconcelos, 2023
+ */
+int main() {
+  int s;int n;
+  s = 0;
+  n = 1;
+  while (n <= 10) {
+    s = s + n*n;
+	n = n + 1;
+  }
+  print_int(n);
+}

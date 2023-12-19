@@ -1,0 +1,19 @@
+/*
+ .data
+     str0: .asciiz    "digite um numero"
+     str1: .asciiz    "e um par"
+     str2: .asciiz    "e um impar"
+
+*/ 
+
+int main(){
+    int x;
+    print_str("digite um numero");
+    x=scanInt();
+    if(x % 2 == 0){
+        print_str("e um par");
+    }else{
+        print_str("e um impar");
+    }
+
+}

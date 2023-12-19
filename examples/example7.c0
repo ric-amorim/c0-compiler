@@ -1,0 +1,18 @@
+int main(){
+    int x = 5;
+    print_int(primo(x));
+}
+int primo(int x){
+    int flag = 0;
+    if(x == 0 || x == 1){
+        flag = 1;
+    }
+    for (int i =2;  i <= x / 2; i++){
+        if(x % i == 0){
+            flag = 1;
+            break;
+        }
+    }
+
+    return flag;
+}

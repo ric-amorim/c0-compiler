@@ -1,0 +1,15 @@
+/*
+ * Example 3 - Compute factorials recursively
+ * Pedro Vasconcelos, 2023
+
+ */
+ 
+int factorial(int n) {
+   if (n == 0) 
+      return 1;
+   return n * factorial(n-1);
+}
+
+int main() {
+   print_int(factorial(scan_int()));
+}

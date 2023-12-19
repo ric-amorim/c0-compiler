@@ -1,0 +1,34 @@
+/*
+ * Example 2 - Test if a positive integer is prime
+ * Pedro Vasconcelos, 2023
+
+  .data
+     str0: .asciiz    "e primo"
+     str1: .asciiz    "nao e primo"
+
+ */
+ 
+bool is_prime(int n) {
+  int d;
+  d = 2;
+  if (n == 1)     // 1 is not prime
+     return false;
+  while (d < n) {
+     if (n%d == 0) 
+	   return false;
+	 else 
+	    d = d+1;
+  }
+  return true;
+}
+
+int main() {
+  int n;
+  n = scanInt(); 
+  if (is_prime(n)) {
+    print_str("primo");
+  } else {
+    print_str("nao primo");
+   }		   
+}
+
